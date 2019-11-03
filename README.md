@@ -6,9 +6,9 @@ A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It ca
 
 <img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/1.PNG" width = "285" height = "562" alt="img1" 
 align=left>
-<img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/2.PNG" width = "190" height = "375" alt="img2" 
+<img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/2.PNG" width = "285" height = "562" alt="img2" 
 align=center>
-<img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/3.PNG" width = "190" height = "375" alt="img3" 
+<img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/3.PNG" width = "285" height = "562" alt="img3" 
 align=left>
 
 
