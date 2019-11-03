@@ -4,7 +4,7 @@
 
 A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It can either work manually, which is, typing in the numbers by hand or automatically recognize sudoku matrix from uploaded pictures. In this v0.1 beta version, a vanilla [DFS](https://en.wikipedia.org/wiki/Depth-first_search) algorithm is utilized while in later versions a more advanced and efficient algorithm will be used.
 
-## Usage
+## [Usage](#readme)
 
 ### Requirements
 
@@ -28,16 +28,16 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 **`\test`**: 3 testing pictures. Now only the first one can be solved sucessfully. The other two will crush the system becase of the low efficiency of algorithm.
 
-## Known Bugs
+## [Known Bugs](#readme)
 
 - Program will crush when handling master-level sudoku problems. Like `002.png` and `003.png` in `test` folder.
 - You can't upload picture more than once.
 - Occasionally the digits can't be recognized correctly(especially __1__&__7__) because he KNN model is very basic and need to be upgraded.
 - Chinese character is not supported in path and filename.
 
-## Work to do
+## [Work to do](#readme)
 
-[ ] vanilla DFS -> high level algorithm
-[ ] train better KNN model or use other machine learning models
-[ ] deploy the program to an executable file (.exe)
-[ ] fix bugs
+-[ ] vanilla DFS -> high level algorithm
+-[ ] train better KNN model or use other machine learning models
+-[ ] deploy the program to an executable file (.exe)
+-[ ] fix bugs
