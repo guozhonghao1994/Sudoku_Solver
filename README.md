@@ -5,9 +5,10 @@
 A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It can either work manually, which is, typing in the numbers by hand or automatically recognize sudoku matrix from uploaded pictures. In this v0.1 beta version, a vanilla [DFS](https://en.wikipedia.org/wiki/Depth-first_search) algorithm is utilized while in later versions a more advanced and efficient algorithm will be used.
 
 <img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/1.PNG" width = "190" height = "375" alt="img1" 
-align=left>
+align=center><img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/2.PNG" width = "190" height = "375" alt="img2" 
+align=center><img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/3.PNG" width = "190" height = "375" alt="img3" 
+align=center>
 
-![img2](https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/2.PNG)![img3](https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/3.PNG)
 
 ## [Usage](#readme)
 
