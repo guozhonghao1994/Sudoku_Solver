@@ -11,7 +11,7 @@ align=left>
 <img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/2.PNG" width = "247" height = "487" alt="img2" 
 align=center>
 <img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/3.PNG" width = "247" height = "487" alt="img3" 
-align=left>
+align=right>
 
 
 ## [Usage](#readme)
