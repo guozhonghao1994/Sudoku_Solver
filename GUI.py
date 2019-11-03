@@ -23,8 +23,7 @@ def start():
 	try:
 		# 如果窗口无响应，原因是数独复杂，vanilla DFS运算时间很长，会在v2版本中改进
 		num_matrix = Solver(num_matrix).solver()
-		# 停2s，等待数独计算完成
-		time.sleep(2)
+		
 		if check_sudoku(num_matrix) == True:
 			for i in range(9):
 				for j in range(9):
@@ -98,7 +97,6 @@ for i in range(9):
 # 图像识别面板
 frame_2 = tk.Frame(window)
 frame_2.pack()
-
 upload_button = tk.Button(frame_2,text='upload',font=('',12),command=choose_file)
 upload_button.pack(side=tk.LEFT,padx=5,pady=5)
 # recog_button = tk.Button(frame_2,text='recognize',font=('',12),command=recognize)
