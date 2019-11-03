@@ -6,7 +6,7 @@ A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It ca
 
 ## [Usage](#readme)
 
-### Requirements
+### [Requirements](#Usage)
 
 `cv2`, `numpy`, `PIL`, `tkinter`, `csv`
 
