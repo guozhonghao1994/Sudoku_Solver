@@ -45,7 +45,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 - Occasionally the digits can't be recognized correctly (especially __1__&__7__) because he KNN model is very basic.
 - Chinese character is not supported in path and filename.
 
-## [Work to do](#readme)
+## [Worklist](#readme)
 
 - [ ] vanilla DFS -> high level algorithm
 - [ ] train better KNN model or use other machine learning models
