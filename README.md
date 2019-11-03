@@ -8,7 +8,9 @@ A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It ca
 
 ### Requirements
 
-`cv2`,`numpy`,`PIL`,`tkinter`,`csv`
+`cv2`, `numpy`, `PIL`, `tkinter`, `csv`
+
+The **opencv** should be `3.x` version but not `2.x` or `4.x` 
 
 ### Functions
 
