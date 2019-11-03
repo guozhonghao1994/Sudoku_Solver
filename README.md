@@ -14,7 +14,19 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ### Functions
 
-**`GUI.py`**: The 
+**`GUI.py`**: The user interface of the whole program. Use **python GUI.py** in command line or terminal to activate the interface.
+
+**`sudoku_solver.py`**: DFS to solve the sudoku.
+
+**`sudoku_recognition.py`**: Using KNN embedded in opencv to recognize digit.
+
+**`debug.py`**: To check if we get the correct and valid answer. It runs independently and is not part of program.
+
+**`sudoku.csv`**: 50,000 testcases downloaded from [Kaggle](https://www.kaggle.com/bryanpark/sudoku). 
+
+**`\train`**: 14 pictures to train KNN model.
+
+**`\test`**: 3 testing pictures. Now only the first one can be solved sucessfully. The other two will crush the system becase of the low efficiency of algorithm.
 
 ## Known Bugs
 
