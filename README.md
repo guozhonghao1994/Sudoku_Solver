@@ -14,7 +14,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ### Functions
 
-**`GUI.py`**: The user interface of the whole program. Use **python GUI.py** in command line or terminal to activate the interface.
+**`GUI.py`**: The user interface of the whole program. Use `python GUI.py` in command line or terminal to activate the interface.
 
 **`sudoku_solver.py`**: DFS to solve the sudoku.
 
