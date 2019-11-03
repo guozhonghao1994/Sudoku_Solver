@@ -1,4 +1,4 @@
-# Sudoku_Solver
+# Sudoku Solver
 
 ![License](https://img.shields.io/badge/license-apache2_2-blue.svg)
 
