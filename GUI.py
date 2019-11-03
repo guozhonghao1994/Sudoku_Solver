@@ -7,7 +7,6 @@ from tkinter.filedialog import *
 from sudoku_solver import check_sudoku,Solver
 from sudoku_recognition import image_recognition
 from PIL import Image, ImageTk
-import time
 
 def start():
 	num_matrix = []
