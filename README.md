@@ -37,7 +37,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ## [Work to do](#readme)
 
--[ ] vanilla DFS -> high level algorithm
--[ ] train better KNN model or use other machine learning models
--[ ] deploy the program to an executable file (.exe)
--[ ] fix bugs
+- [ ] vanilla DFS -> high level algorithm
+- [ ] train better KNN model or use other machine learning models
+- [ ] deploy the program to an executable file (.exe)
+- [ ] fix bugs
