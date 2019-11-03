@@ -30,12 +30,14 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ## Known Bugs
 
-- Program will crush when handling master-level sudoku problems. Like `002.png` and `003.png` in `\test` folder.
+- Program will crush when handling master-level sudoku problems. Like `002.png` and `003.png` in `test` folder.
 - You can't upload picture more than once.
-- Sometimes the digits can't be recognized correctly because he KNN model is very basic and need to be upgraded.
+- Occasionally the digits can't be recognized correctly(especially __1__&__7__) because he KNN model is very basic and need to be upgraded.
 - Chinese character is not supported in path and filename.
-
-
 
 ## Work to do
 
+[ ] vanilla DFS -> high level algorithm
+[ ] train better KNN model or use other machine learning models
+[ ] deploy the program to an executable file (.exe)
+[ ] fix bugs
