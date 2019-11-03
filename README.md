@@ -12,7 +12,7 @@ A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It ca
 
 The **opencv** should be `3.x` version but not `2.x` or `4.x` 
 
-### Functions
+### [Functions](#Usage)
 
 **`GUI.py`**: The user interface of the whole program. Use `python GUI.py` in command line or terminal to activate the interface.
 
