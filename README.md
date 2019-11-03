@@ -14,7 +14,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ### Functions
 
-`__GUI.py__`: The 
+**`GUI.py`**: The 
 
 ## Known Bugs
 
