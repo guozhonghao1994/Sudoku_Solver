@@ -8,7 +8,7 @@ A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It ca
 
 ### Requirements
 
-The whole project is based on 'Python3',
+`cv2`,`numpy`,`PIL`,`tkinter`,`csv`
 
 ### Functions
 
