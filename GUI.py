@@ -5,6 +5,7 @@ import tkinter as tk
 import tkinter.messagebox
 from tkinter.filedialog import *
 from sudoku_solver import check_sudoku,Solver
+from sudoku_solver_v2 import Sudo
 from sudoku_recognition import image_recognition
 from PIL import Image, ImageTk
 
@@ -20,9 +21,16 @@ def start():
 		num_matrix.append(nums)
 
 	try:
-		# 如果窗口无响应，原因是数独复杂，vanilla DFS运算时间很长，会在v2版本中改进
-		num_matrix = Solver(num_matrix).solver()
+		################################################################################
+		# vanilla version，if no response，the reason is that the sudoku is so complex #
+		################################################################################
+		# num_matrix = Solver(num_matrix).solver()
 		
+		#######################################################
+		# v2 version，exclude, shortlist & guess(ESG) by 杨仕航
+		#######################################################
+		num_matrix = Sudo(num_matrix).sudo_solve()
+
 		if check_sudoku(num_matrix) == True:
 			for i in range(9):
 				for j in range(9):
@@ -33,7 +41,7 @@ def start():
 		tk.messagebox.showerror('error')
 
 def recognize(selectFileName):
-	# 路径不可以包含中文
+	# No Chinese in path!
 	recognizing_result = image_recognition(selectFileName).tolist()
 	# print(recognizing_result)
 	for i in range(9):
@@ -79,7 +87,7 @@ window.geometry('380x750')
 window.resizable(False,False)
 window.bind_all('<Any-KeyPress>', keyboard_handler)
 
-# 手动输入面板
+# manually input panel
 frame_1 = tk.Frame(window)
 frame_1.pack()
 matrix = []
@@ -93,7 +101,7 @@ for i in range(9):
 		row_labels.append(label)
 	matrix.append(row_labels)
 
-# 图像识别面板
+# image recognition panel
 frame_2 = tk.Frame(window)
 frame_2.pack()
 upload_button = tk.Button(frame_2,text='upload',font=('',12),command=choose_file)
@@ -106,7 +114,7 @@ e_entry = tk.Entry(window, width=40, textvariable=e)
 e_entry.pack()
 
 
-# 按钮面板
+# button panel
 frame_3 = tk.Frame(window)
 frame_3.pack()
 start_button = tk.Button(frame_3,text='start',font=('',12),command=start)
