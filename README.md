@@ -34,7 +34,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 **`debug.py`**: To check if we get the correct and valid answer. It runs independently and is not part of program.
 
-**`sudoku.csv`**: 50,000 testcases downloaded from [Kaggle](https://www.kaggle.com/bryanpark/sudoku). 
+**`sudoku.csv`**: 500,000 testcases downloaded from [Kaggle](https://www.kaggle.com/bryanpark/sudoku). 
 
 **`\train`**: pictures for training KNN model.
 
