@@ -26,13 +26,15 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 **`GUI.py`**: The user interface of the whole program. Use `python GUI.py` in command line or terminal to activate the interface.
 
-**`sudoku_solver.py`**: DFS to solve the sudoku.
+**`sudoku_solver.py`**: vanilla DFS to solve the sudoku.
+
+**`sudoku_solver_v2.py`**: high-level algorithm to solve the sudoku (by Shihang Yang).
 
 **`sudoku_recognition.py`**: Using KNN embedded in opencv to recognize digit.
 
 **`debug.py`**: To check if we get the correct and valid answer. It runs independently and is not part of program.
 
-**`sudoku.csv`**: 50,000 testcases downloaded from [Kaggle](https://www.kaggle.com/bryanpark/sudoku). 
+**`sudoku.csv`**: 500,000 testcases downloaded from [Kaggle](https://www.kaggle.com/bryanpark/sudoku). 
 
 **`\train`**: pictures for training KNN model.
 
@@ -47,7 +49,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ## [Worklist](#readme)
 
-- [ ] vanilla DFS -> high level algorithm
+- [x] vanilla DFS -> high-level algorithm
 - [ ] train better KNN model or use other machine learning models
 - [ ] deploy the program to an executable file (.exe)
 - [ ] fix bugs
