@@ -42,7 +42,7 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 ## [Known Bugs](#readme)
 
-- Program will crush when handling hell-level sudoku problems. Like `002.png` and `003.png` in `test` folder.
+- Program will crush when handling hell-level sudoku problems. Like `002.png` and `003.png` in `test` folder. (fixed in v0.2)
 - You can't upload picture more than once.
 - Occasionally the digits can't be recognized correctly (especially __1__&__7__) because he KNN model is very basic.
 - Chinese character is not supported in path and filename.
