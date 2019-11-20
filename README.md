@@ -4,7 +4,7 @@
 
 ## [Introduction](#readme)
 
-A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It can either work manually, which is, typing in the numbers by hand or automatically recognize sudoku matrix from uploaded pictures. In this v0.1 beta version, a vanilla [DFS](https://en.wikipedia.org/wiki/Depth-first_search) algorithm is utilized while in later versions a more advanced and efficient algorithm will be used.
+A [Sudoku](https://en.wikipedia.org/wiki/Sudoku) solver written in Python. It can either work manually, which is, typing in the numbers by hand or automatically recognize sudoku matrix from uploaded pictures. In this v0.1 beta version, a vanilla [DFS](https://en.wikipedia.org/wiki/Depth-first_search) algorithm is utilized. In v0.2 version a more advanced and efficient algorithm is used.
 
 <img src="https://github.com/guozhonghao1994/Sudoku_Solver/blob/master/1.PNG" width = "247" height = "487" alt="img1" 
 align=center>
