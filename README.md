@@ -44,11 +44,11 @@ The **opencv** should be `3.x` version but not `2.x` or `4.x`
 
 - Program will crush when handling hell-level sudoku problems. Like `002.png` and `003.png` in `test` folder. (fixed in v0.2)
 - You can't upload picture more than once.
-- Occasionally the digits can't be recognized correctly (especially __1__&__7__) because he KNN model is very basic.
+- Occasionally the digits can't be recognized correctly (especially __1__&__7__) because he KNN model is very basic. (switch the numbers of k, that is, number of neighbours to 3 or above will help)
 - Chinese character is not supported in path and filename.
 
 ## [Worklist](#readme)
 
 - [x] vanilla DFS -> high-level algorithm
-- [ ] train better KNN model or use other machine learning models
+- [x] train better KNN model or use other machine learning models
 - [ ] fix bugs
