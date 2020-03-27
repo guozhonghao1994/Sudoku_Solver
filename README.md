@@ -20,7 +20,7 @@ align=center>
 
 `cv2`, `numpy`, `PIL`, `tkinter`, `csv`
 
-The **opencv** should be `3.x` version but not `2.x` or `4.x` 
+The **opencv** should be `3.x` version, neither `2.x` nor `4.x` .
 
 ### [Functions](#Usage)
 
